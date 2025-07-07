@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import '../assets/styles/Contact.scss';
+import '/home/kondwani/github-portfolio/src/assests/styles/Contact.scss';
 // import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
