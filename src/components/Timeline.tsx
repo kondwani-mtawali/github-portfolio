@@ -1,10 +1,10 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faLaptop, faBook } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '/home/kondwani/github-portfolio/src/assests/styles/Timeline.scss'
+import '/home/kondwani/github-portfolio/src/assets/styles/Timeline.scss'
 
 function Timeline() {
     return (
@@ -16,38 +16,38 @@ function Timeline() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
                         contentArrowStyle={{ borderRight: '7px solid  white' }}
-                        date="2022 - present"
+                        date="2022 - 2024"
                         iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-                        icon={<FontAwesomeIcon icon={faBriefcase} />}
+                        icon={<FontAwesomeIcon icon={faBook} />}
                     >
-                        <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+                        <h3 className="vertical-timeline-element-title">VCCS | NIACC </h3>
+                        <h4 className="vertical-timeline-element-subtitle">Richmond, VA | Mason City, IA</h4>
                         <p>
-                            Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+                            Spent two years acquiring associates degree.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2020 - 2022"
+                        date="2024 - Present"
                         iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-                        icon={<FontAwesomeIcon icon={faBriefcase} />}
+                        icon={<FontAwesomeIcon icon={faLaptop} />}
                     >
-                        <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+                        <h3 className="vertical-timeline-element-title">Concordia University Nebraska</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Seward, NE</h4>
                         <p>
-                            Frontend Development, Backend Development, User Experience, Team Leading
+                            Data Science, Application Development, Data Structures & Algorithm Analysis
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2021 - 2021"
+                        date="Summer 2025"
                         iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
                         icon={<FontAwesomeIcon icon={faBriefcase} />}
                     >
-                        <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+                        <h3 className="vertical-timeline-element-title">IT Technician Internship</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Seward, NE</h4>
                         <p>
-                            Full-stack Development, API Development, User Experience
+                            Computer Configuration, Network System Management, Cable Termination, IT Operations
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

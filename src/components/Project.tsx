@@ -1,15 +1,15 @@
 import React from "react";
-import mock01 from '/home/kondwani/github-portfolio/src/assests/images/mock01.png';
-import mock02 from '/home/kondwani/github-portfolio/src/assests/images/mock02.png';
-import mock03 from '/home/kondwani/github-portfolio/src/assests/images/mock03.png';
-import mock04 from '/home/kondwani/github-portfolio/src/assests/images/mock04.png';
-import mock05 from '/home/kondwani/github-portfolio/src/assests/images/mock05.png';
-import mock06 from '/home/kondwani/github-portfolio/src/assests/images/mock06.png';
-import mock07 from '/home/kondwani/github-portfolio/src/assests/images/mock07.png';
-import mock08 from '/home/kondwani/github-portfolio/src/assests/images/mock08.png';
-import mock09 from '/home/kondwani/github-portfolio/src/assests/images/mock09.png';
-import mock10 from '/home/kondwani/github-portfolio/src/assests/images/mock10.png';
-import '/home/kondwani/github-portfolio/src/assests/styles/Project.scss';
+import mock01 from '/home/kondwani/github-portfolio/src/assets/images/mock01.png';
+import mock02 from '/home/kondwani/github-portfolio/src/assets/images/mock02.png';
+import mock03 from '/home/kondwani/github-portfolio/src/assets/images/mock03.png';
+import mock04 from '/home/kondwani/github-portfolio/src/assets/images/mock04.png';
+import mock05 from '/home/kondwani/github-portfolio/src/assets/images/mock05.png';
+import mock06 from '/home/kondwani/github-portfolio/src/assets/images/mock06.png';
+import mock07 from '/home/kondwani/github-portfolio/src/assets/images/mock07.png';
+import mock08 from '/home/kondwani/github-portfolio/src/assets/images/mock08.png';
+import mock09 from '/home/kondwani/github-portfolio/src/assets/images/mock09.png';
+import mock10 from '/home/kondwani/github-portfolio/src/assets/images/mock10.png';
+import '/home/kondwani/github-portfolio/src/assets/styles/Project.scss';
 
 function Project() {
     return (
